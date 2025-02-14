@@ -1,0 +1,836 @@
+2025-02-02-21:06:30
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4\mode
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-22:58:59
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-22:59:05
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-22:59:05
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:00:06
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:00:11
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:00:11
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:00:11
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:00:11
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:01:41
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:01:46
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:01:46
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:01:47
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:01:47
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:02:00
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:02:05
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:02:05
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:02:05
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
+2025-02-02-23:02:05
+
+template: .
+n_threads: 4
+cpu: False
+n_GPUs: 1
+seed: 1
+dir_data: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR
+dir_demo: F:\兼职项目\SwinOIR\SwinOIR-main\Set14\HR
+data_test: ['Set5']
+ext: sep
+scale: [4]
+patch_size: 192
+rgb_range: 255
+n_colors: 3
+model: model
+act: relu
+pre_train: 
+extend: .
+n_resblocks: 16
+n_feats: 64
+res_scale: 1
+shift_mean: True
+precision: single
+reset: False
+epochs: 2000
+self_ensemble: False
+test_only: True
+lr: 0.0001
+decay: 500
+gamma: 0.5
+optimizer: ADAM
+momentum: 0.9
+betas: (0.9, 0.999)
+epsilon: 1e-08
+weight_decay: 0
+loss: 1*L1
+skip_threshold: 100000000.0
+save: ./test
+load: F:\兼职项目\SwinOIR\SwinOIR-main\swinOIR\model_zoo\x4
+resume: 0
+print_every: 100
+save_gt: True
+
